@@ -21,7 +21,7 @@ test("should include the <ExampleComponent />", () => {
 test("should include the <TestComponent />", () => {
   expect(screen.queryByTitle("time video")).toBeInTheDocument();
 });
-
+screen.debug()
 //   it('should include "Now" in the header instead of a time', () => {
 //     expect(wrapper.find('header').text()).to.not.include(moment().format('MMMM Do YYYY'))
 //     expect(wrapper.find('header').text()).to.include('Now')
@@ -34,4 +34,4 @@ test("should include the <TestComponent />", () => {
 //   it('should include the TestComponent', () => {
 //     expect(wrapper.text()).to.include('<TestComponent />')
 //   });
-// });
+// })
